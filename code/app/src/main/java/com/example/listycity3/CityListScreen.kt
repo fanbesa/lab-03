@@ -42,7 +42,7 @@ fun CityListScreen(
     var updateCityName by remember { mutableStateOf("") }
     var updateProvinceName by remember { mutableStateOf("") }
     var showAddCityFields by remember { mutableStateOf(false) }
-    var showEditCityFields by remember { mutableStateOf(value = false) }
+    var showEditCityFields by remember { mutableStateOf(false) }
     var selectedCity by remember { mutableStateOf<City?>(null) }
     var editMessage by remember { mutableStateOf(false) }   // Toggles whether the edit message is displayed
 
@@ -66,7 +66,7 @@ fun CityListScreen(
                     text = "Select a City to Edit",
                     fontSize = 20.sp,
                     modifier = Modifier.weight(1f)
-                        .padding(all=8.dp)
+                        .padding(all = 8.dp)
                 )
             }
 
@@ -93,9 +93,7 @@ fun CityListScreen(
 
                     if (showEditCityFields) {
                         editMessage = true
-                    }
-
-                    else { // Clear all Editing Information when exiting Edit Mode
+                    } else { // Clear all Editing Information when exiting Edit Mode
                         selectedCity = null
                         updateCityName = ""
                         updateProvinceName = ""
