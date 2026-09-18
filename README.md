@@ -2,10 +2,13 @@
 
 ## Student Details
 
-- **Full Name:** `<Enter name>`
-- **CCID:** `<Enter ccid>`
+- **Full Name:** `Fenet Anbesa`
+- **CCID:** `fanbesa`
 
 ## References and Resources
+Stack Overflow, 
+Android Developers
+
 
 List any resources used here, or simply put `N/A` if not applicable.
 
