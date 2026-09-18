@@ -12,7 +12,7 @@ Android Developers
 ChatGPT - General Prompt (other than the example provided in the code)
 Prompt:
   Given this set of code conventions, are there any errors or inconsistencies in the conventions in my code? If there are any issues, where are they and which rule do they violate? 
-\nResponse: 
+Response: 
   What I would actually change:
   If you're trying to make this code conform closely to the provided guide, I'd make these changes:
   Change 1
